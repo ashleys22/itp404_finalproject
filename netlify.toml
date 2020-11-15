@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/api/*"
-  to = "https://ashleys22-issues-app-json-server.herokuapp.com/api/:splat"
+  to = "https://ashleys22-itp404finalproject.herokuapp.com/api/:splat"
   status = 200
 
 [[redirects]]

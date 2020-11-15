@@ -7,7 +7,7 @@ let server;
 beforeEach(() => {
 	server = createServer({
 		routes() {
-			// this.namespace = "api"; // prefixes all route paths
+			this.namespace = "api"; // prefixes all route paths
 			this.logging = false; // turns off miragejs's console logs
 
 			this.get("/entries", () => {

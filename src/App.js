@@ -13,11 +13,10 @@ import { entriesReducer } from "./reducers";
 
 function App() {
 	const [entries, dispatch] = useReducer(entriesReducer, []);
-	// const [entries, setEntries] = useState([]);
 	useEffect(() => {
 		fetchEntries().then((entries) => {
 			dispatch({
-				// action variable in EntrysReducer
+				// action variable in EntriesReducer
 				type: "ENTRIES_LOADED",
 				payload: entries,
 			});

@@ -13,7 +13,7 @@ let server;
 beforeEach(() => {
 	server = createServer({
 		routes() {
-			// this.namespace = "api";
+			this.namespace = "api";
 			this.logging = false;
 
 			this.get("/entries/:id", (schema, request) => {
