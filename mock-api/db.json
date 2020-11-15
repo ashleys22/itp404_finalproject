@@ -1,0 +1,74 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "shop": "7 Leaves",
+      "drink": "Assam Milk Tea with Honey Boba",
+      "date": "2020-05-06",
+      "price": 4.5,
+      "rating": 8,
+      "location": "Saratoga",
+      "note": "Refreshing and not too creamy. 7 Leaves has one of the better black milk teas."
+    },
+    {
+      "id": 2,
+      "shop": "Pot of Cha",
+      "drink": "Red Ruby Milk Tea with Boba",
+      "price": 4.04,
+      "date": "2020-03-12",
+      "rating": 10,
+      "location": "Los Angeles",
+      "note": "Good tea flavor, boba is chewy and has nice flavor too. Strong caffeine"
+    },
+    {
+      "id": 3,
+      "shop": "Tea Top",
+      "drink": "Passion Fruit Medley",
+      "date": "2020-11-07",
+      "price": 5.25,
+      "rating": 9,
+      "location": "Cupertino",
+      "note": "Comes with boba and lychee jelly. Made with syrup but is super refreshing and has good flavor."
+    },
+    {
+      "shop": "Gong Cha",
+      "drink": "Green Milk Tea with Boba",
+      "date": "2018-03-15",
+      "price": 4,
+      "rating": 6,
+      "location": "Saratoga",
+      "note": "Has a milkier taste but tea flavor is still there. Used to be pretty good but quality worsened recently.",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "shop": "YiFang",
+      "drink": "Fruit Tea",
+      "date": "2020-11-14",
+      "price": 5,
+      "rating": 7,
+      "location": "Cupertino",
+      "note": "Tea flavor is obvious and fruit flavor is super refreshing. Drink is kind of expensive.."
+    },
+    {
+      "id": 6,
+      "shop": "TP Tea",
+      "drink": "Passion Fruit Green Tea with QQ Noodles",
+      "date": "2020-08-22",
+      "price": 5,
+      "rating": 9,
+      "location": "Cupertino",
+      "note": "Supposedly part of the franchise that invented boba! They have QQ noodles which is a clear, chewy, noodle-shaped topping."
+    },
+    {
+      "shop": "Shop",
+      "drink": "Drink",
+      "date": "",
+      "price": "",
+      "rating": "",
+      "location": "",
+      "note": "",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+/* Shared CSS for App*/
+body {
+	margin: 0px;
+	padding: 0;
+	overflow: auto;
+}
+.body {
+	background-color: #ac939f;
+	padding: 20px;
+	height: 100vh;
+}
+.wrapper {
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	background-color: #eee4e1;
+	border-radius: 2%;
+	padding-bottom: 20px;
+	overflow: scroll;
+	box-shadow: 0px 0px 50px #705862;
+}
+
+/* CSS for AboutPage */
+#about-wrapper {
+	margin-top: 2%;
+	width: 80%;
+}
+#boba-img {
+	float: left;
+	margin-top: 20px;
+}
+#boba-img img {
+	width: 100%;
+	height: auto;
+}
+#about {
+	margin-left: 80px;
+	float: left;
+}
+#about-title {
+	font-size: 2.5em;
+	margin: 0;
+}
+#about-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#about-button:hover {
+	color: #069;
+}
+
+/* CSS for NavBar */
+hr {
+	margin: 0;
+}
+.nav-item {
+	margin: 0 25px;
+}
+.hoverNav {
+	color: #705862;
+}
+.hoverNav:hover {
+	color: black;
+	border-bottom: 1px solid black;
+}
+@media (max-width: 767px) {
+	.nav-item {
+		margin: 0 -15px;
+	}
+}
+
+/* CSS for HomePage */
+#entries {
+	padding: 0 10px;
+	width: 70%;
+	float: left;
+	margin-left: 2%;
+}
+#recommended {
+	margin-left: 5%;
+	width: 20%;
+	float: left;
+	background-color: #d5c7d0;
+	padding: 10px;
+}
+.clearfloat {
+	clear: both;
+}
+table {
+	margin: 10px;
+}
+.typewriter h3 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 0.15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: 0.15em; /* Adjust as needed */
+	animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: orange;
+	}
+}
+@media (max-width: 850px) {
+	#entries {
+		width: 80%;
+		float: none;
+		margin: auto;
+	}
+	#recommended {
+		float: none;
+		width: 80%;
+		margin: auto;
+	}
+}
+
+/* CSS for CreateEntry/EditEntry */
+.edit_header {
+	width: 70%;
+}
+.form-group {
+	margin-bottom: 25px;
+}
