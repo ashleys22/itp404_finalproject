@@ -76,7 +76,7 @@ export default function CreateEntry({
 	}
 
 	return (
-		<form onSubmit={handleSubmit}>
+		<form onSubmit={handleSubmit} noValidate>
 			<div className="form-group row">
 				<label
 					htmlFor="store"
