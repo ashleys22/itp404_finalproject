@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Typewriter from "./Typewriter";
 import Entries from "./Entries";
 import Recommended from "./Recommended";
-import PropTypes from "prop-types";
 
 export default function HomePage({ deleteEntry, title }) {
 	useEffect(() => {
@@ -17,8 +16,3 @@ export default function HomePage({ deleteEntry, title }) {
 		</>
 	);
 }
-
-HomePage.propTypes = {
-	deleteEntry: PropTypes.func,
-	title: PropTypes.string,
-};
